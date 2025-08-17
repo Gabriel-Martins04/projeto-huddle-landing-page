@@ -1,0 +1,26 @@
+@media (max-width: 992px) {
+    body {
+        background: url(../images/bg-mobile.svg) center center no-repeat hsl(257, 40%, 49%);
+    }
+
+    .cabecalho img {
+        max-width: 100%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    main .layouts img {
+        max-width: 100%;
+    }
+
+    .rodape ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 75px;
+    }
+}
